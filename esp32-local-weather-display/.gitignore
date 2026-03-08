@@ -1,0 +1,8 @@
+never.h
+*.bin
+*.hex
+*.elf
+build/
+platformio.ini
+.pio/
+.vscode/
