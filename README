@@ -3,7 +3,7 @@
 A standalone IoT system that measures environmental data (temperature & humidity) and displays it live on an OLED screen and in a web browser — **without internet or external cloud services**.  
 Perfect for beginners who want to visualize sensor data locally over WiFi.
 
-![OLED screen and browser](/images/demo.jpg) *(optional: add screenshot later)*
+| ![Setup](images/setup.jpg) | ![OLED](images/oled.jpg)
 
 ---
 
@@ -63,4 +63,5 @@ Both sensors share the same I²C pins:
 > ```bash
 > cp secrets.h.example secrets.h
 > ```
+
 > Open `secrets.h` and replace `"MijnESP32"` and `"12345678"` with your WiFi name and password.
