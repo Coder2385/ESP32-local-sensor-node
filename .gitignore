@@ -26,6 +26,10 @@
 *.mod
 *.smod
 
+never.h
+secrets.h
+*.bin
+
 # Compiled Static libraries
 *.lai
 *.la
