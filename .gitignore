@@ -26,15 +26,15 @@
 *.mod
 *.smod
 
-never.h
-secrets.h
-*.bin
-
 # Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
+
+never.h
+secrets.h
+*.bin
 
 # Executables
 *.exe
