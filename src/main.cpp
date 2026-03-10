@@ -128,7 +128,7 @@ void loop() {
             
             display.println("Measure Enviroment");
 
-            // Print sensor readings to Serial Monitor for debugging
+            // Print sensor readings to Display
             display.println("Temperature: " + String(temp, 2) + " C");
             display.println("Humidity:    " + String(hum, 2) + " %");
 
@@ -146,3 +146,4 @@ void loop() {
   // Web server must always listen
   server.handleClient();
 }
+
