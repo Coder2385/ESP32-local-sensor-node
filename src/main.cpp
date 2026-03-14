@@ -126,7 +126,7 @@ void loop() {
             display.setTextSize(1);
             display.setTextColor(SSD1306_WHITE);
             
-            display.println("Measure Enviroment");
+            display.println("Measure Environment");
 
             // Print sensor readings to Display
             display.println("Temperature: " + String(temp, 2) + " C");
