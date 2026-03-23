@@ -27,7 +27,7 @@ const long UPDATE_INTERVAL = 2000;
 WebServer server(80);
 
 // Generates the HTML webpage with sensor values (temperature & humidity)
-String makeWebpage(float temperatuur, float vochtigheid) {
+String creatWebPage(float temperatuur, float vochtigheid) {
   String html = "<!DOCTYPE html><html><head>";
   html += "<meta charset='UTF-8'>";
   html += "<title>ESP32 Sensor</title>";
